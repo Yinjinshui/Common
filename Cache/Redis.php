@@ -65,4 +65,14 @@ class Redis
     {
         return "测试".$key."value".$value;
     }
+
+    /**
+     * @param $key
+     * @param $value
+     * @return string
+     */
+    public function testdev($key, $value)
+    {
+        return "测试".$key."value".$value;
+    }
 }
